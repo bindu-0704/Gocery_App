@@ -1,0 +1,35 @@
+# 🚀 General Ignore Rules
+*.log
+*.tmp
+*.cache
+*.sqlite
+
+# 🛠️ Node.js (Vue.js Frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+
+# 🐍 Python (Flask Backend)
+backend/myenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+instance/
+*.db
+*.sqlite3
+dump.rdb
+celerybeat-schedule
+
+# 🔒 Environment Variables
+.env
+*.env
+
+# 💻 VS Code Settings (Optional)
+.vscode/
+
+# 🔄 OS-Specific Files
+.DS_Store  # macOS
+Thumbs.db  # Windows
